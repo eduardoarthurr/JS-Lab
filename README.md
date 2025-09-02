@@ -94,34 +94,4 @@ O objetivo é consolidar o aprendizado em **JavaScript, TypeScript, Node.js, ban
    ```bash
    git clone https://github.com/SEU-USUARIO/curso-luiz-otavio-miranda.git
    ```
-2. Acesse a pasta do módulo desejado
 
-   ```bash
-   cd javascript-basico
-   ```
-3. Instale as dependências (quando necessário):
-
-   ```bash
-   npm install
-   ```
-4. Rode o projeto:
-
-   ```bash
-   npm start
-   ```
-
----
-
-## 📌 Observações
-
-* Este repositório é de **estudos pessoais**, seguindo o curso de Luiz Otávio Miranda na Udemy.
-* Todo o conteúdo de código aqui presente foi produzido para **fixação do aprendizado**.
-
----
-
-✍️ **Autor**: \[Seu Nome Aqui]
-📅 **Ano**: 2025
-
----
-
-👉 Quer que eu monte também um **roadmap visual em tópicos (passo a passo do curso)** no README, para você ir marcando o progresso?
