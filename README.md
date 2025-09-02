@@ -1,8 +1,3 @@
-Boa! Um README bem feito já mostra organização e dedicação 💡.
-Aqui está um modelo que você pode usar e adaptar para o seu repositório:
-
----
-
 # 📚 Curso de Desenvolvimento Web e Back-end (Luiz Otávio Miranda - Udemy)
 
 Este repositório reúne **todo o conteúdo e exercícios práticos** desenvolvidos ao longo do curso ministrado por [Luiz Otávio Miranda](https://www.udemy.com/user/luiz-otavio-miranda/) na Udemy.
