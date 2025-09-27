@@ -1,0 +1,1 @@
+>  A intenção desse exercicio e mesclas o conhecimento da seção 2 atá a aula sobre if so curso.
