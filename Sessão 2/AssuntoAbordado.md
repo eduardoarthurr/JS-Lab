@@ -1,4 +1,78 @@
-# Seção 2
+## 📚 Assuntos abordados 
+
+* **Fundamentos do JavaScript**
+
+  * Variáveis (`let`) e boas práticas
+  * Constantes (`const`)
+  * Tipos primitivos (`string`, `number`, `boolean`, `null`, `undefined`)
+  * Diferença entre valores por valor e por referência
+
+* **Conversão e Manipulação de Tipos**
+
+  * `parseInt()`
+  * `parseFloat()`
+  * `Number()`
+
+* **Strings**
+
+  * Acesso por índice (`charAt`, `[]`)
+  * Busca e posição (`indexOf`, `lastIndexOf`, `search`)
+  * Substituição (`replace`)
+  * Tamanho (`length`)
+  * Recortes (`slice`)
+  * Quebra de texto (`split`)
+  * Transformação de texto (`toUpperCase`, `toLowerCase`)
+
+* **Numbers e Matemática**
+
+  * Conversão de números (`toString`)
+  * Casas decimais (`toFixed`)
+  * Validações (`Number.isInteger`, `Number.isNaN`)
+  * Precisão de números decimais
+  * Objeto `Math`
+
+    * `floor`, `ceil`, `round`
+    * `max`, `min`
+    * `random`
+    * `PI`
+  * Cálculo de raiz quadrada (`** 0.5`)
+
+* **Arrays**
+
+  * Conceito e boas práticas
+  * Acesso e modificação por índice
+  * Propriedade `length`
+  * Métodos principais (`push`, `pop`, `shift`, `unshift`, `slice`)
+  * Remoção com `delete`
+  * Verificação de array (`instanceof Array`)
+
+* **Funções**
+
+  * Declaração de funções
+  * Funções anônimas
+  * Arrow functions
+  * Parâmetros e retorno
+
+* **Objetos**
+
+  * Estrutura chave : valor
+  * Organização de dados
+  * Acesso a propriedades (notação de ponto e colchetes)
+
+* **DOM e Browser**
+
+  * Objeto `window`
+
+    * `alert`
+    * `confirm`
+    * `prompt`
+  * Manipulação do DOM
+
+    * `document.innerHTML`
+    * `querySelector`
+    * `querySelectorAll`
+    * `appendChild`
+    * `addEventListener`
 
 ---
 
@@ -264,6 +338,14 @@ const fichaCarro = {
 console.log(fichaCarro.nome)
 ```
 
+- **Para acessar o atributo de uma chave** especifica basta usar 
+
+```
+console.log(fichaCarro.nome)
+ou
+console.log(fichaCarro['nome'])
+
+```
 ---
 # querySelector()
 
@@ -277,7 +359,45 @@ console.log(fichaCarro.nome)
 
 -  querySelector('#form') -> usando o hashtag significa para escolher o ID form. 
 
+```
+HTML
+<div class="paragrafos">
+	<p>
+	    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
+    <p>
+	    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </p>	
+</div>
 
+JS
+
+const paragrafos = document.querySelector('.paragrafos')
+```
+
+- Selecionamos a div com a classe paragrafos 
+---
+# querySelectorAll()
+
+> O querySelector se limita podendo armazenar apenas um valor, com querySelectorAll voce pode selecionar mais de um elemento, voce cria uma espécie de lista com tudo aquilo que selecionou, ele parece um array se comporta como um nos tratamos como um mas ele nao é um array rs, nós chamamos de **Nodelist**. 
+
+```
+HTML
+<div class="paragrafos">
+	<p>
+	    eu gosto de pao 
+    </p>
+    <p>
+	    eu gosto de pao de queijo 
+    </p>	
+</div>
+
+JS
+
+const paragrafos = document.querySelectorAll('p')
+```
+
+- Armazenamos em paragrafos todos os elementos com a tag p no documento agora ele esta armazenado no Nodelist na ordem em que aparece as tags 
 ---
 
 # Valores por referencia
@@ -334,3 +454,12 @@ botaoLogin.addEventListener('click', interagir)
 
 ---
 
+# appendChield()
+
+>appendChild indica que voce deseja incluir um elemento em outro exemplo: 
+
+```
+const caixa = document.getElementById('caixa');
+const p = document.creatElement('p');
+caixa.appendChield(p);
+```

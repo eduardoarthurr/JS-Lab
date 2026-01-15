@@ -53,24 +53,6 @@ O objetivo é consolidar o aprendizado em **JavaScript, TypeScript, Node.js, ban
 
 ---
 
-## 📂 Estrutura do Repositório
-```` 
-📦 Curso-JS
- ┣ 📁 Seção-2
- ┃ ┣ 📄 01ConsoleLog.js
- ┃ ┣ 📄 02Variaveis.js
- ┃ ┣ 📄 03TiposPrimitivos.js
- ┃ ┣ 📄 04TratandoDados.js
- ┃ ┣ 📄 05EntradaDeDados.js
- ┃ ┣ 📄 06Strings.html
- ┃ ┣ 📄 07Number.html
- ┃ ┗ 📄 07Numbers.js
-````
-
-> A organização poderá mudar conforme o avanço do curso, mas a ideia é separar por **módulos/tecnologias**.
-
----
-
 ## 🎯 Objetivo
 
 * Consolidar os fundamentos de **JavaScript e TypeScript**
